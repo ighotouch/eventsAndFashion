@@ -9,7 +9,7 @@ php artisan aimeos:cache
 php artisan cache:clear
 
 ##To add admin account
-php artisan aimeos:account --admin <email>
+php artisan aimeos:account --admin <email> \n
 
 if you get Mshop Exception try the command below
 php artisan aimeos:setup --option=setup/default/demo:1 1>setup.log 2>setup.err
